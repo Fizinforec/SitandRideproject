@@ -1,0 +1,42 @@
+.head{
+    height: 8vh;
+    position: fixed;
+    top: 0px;
+    background-image: url("../../media/head-background.jpg");
+}
+.horizontalList {
+  display: flex;
+  width: 100vw;
+  list-style-type: none;
+  padding: 15px;
+  margin: 0;
+  font-size: 25px;
+  align-items: center;
+  text-align: center;
+  justify-content: space-around;
+}
+.styleList{
+    text-align: right;
+}
+.list {
+  text-align: center;
+}
+.contact {
+  display: flex;
+  list-style-type: none;
+  padding: 1vh;
+  margin: 10;
+  color: whitesmoke;
+  font-size: 30px;
+  text-decoration: none;
+}
+li{
+    color: whitesmoke;
+}
+.link{
+    color: whitesmoke;
+}
+.nazvan{
+    font-size: 30px;
+    padding: 0;
+}
