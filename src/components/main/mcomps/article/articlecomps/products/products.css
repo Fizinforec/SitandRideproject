@@ -1,0 +1,37 @@
+.products{
+	width:80vw;
+	height:80vh;
+	display:grid;
+	grid-template-rows: 2% 36% 36%;
+    margin:auto;
+}
+
+.d1p,.d2p,.d3p{
+	width:80%;
+	height:80%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.d1p{
+     font-size: 30px;
+     font-weight: bold;
+     text-decoration: underline;
+     align-items: center;
+     text-align: left;
+}
+
+.d2p{
+     align-items: center;
+     text-align: left;
+     display:grid;
+     grid-template-columns: 20vw 20vw 20vw 20vw; 
+     cursor: pointer;
+}
+
+.d3p{
+     display: flex;
+     align-items: center;
+     text-align: center;
+     justify-content:space-around;
+}

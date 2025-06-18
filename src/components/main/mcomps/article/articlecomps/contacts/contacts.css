@@ -1,0 +1,45 @@
+.contacts{
+	width:80vw;
+	height:80vh;
+	display:grid;
+	grid-template-rows: 8% 92%;
+    margin:auto;
+}
+.d1k,.d2k,.d3k,.d4k,.d5k{
+	width:100%;
+	height:100%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.d1k{
+     font-size: 30px;
+     font-weight: bold;
+     text-decoration: underline;
+     align-items: center;
+     text-align: left;
+}
+
+.d2k{
+     align-items: center;
+     text-align: left;
+     display:grid;
+     grid-template-columns: 50vw 30vw;
+}
+
+.d3k{
+     display: flex;
+     font-size: 25px;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     align-items: center;
+     text-align: left;
+     justify-content:space-around;
+}
+
+.d4k{
+     display: flex;
+     align-items: center;
+     text-align: left;
+     justify-content:right;
+     font-size: 35px;
+}
